@@ -1,6 +1,6 @@
 const catchAsyncError = require("../middleware/catchAsyncError");
 const Cart = require("../models/Cart")
-const ErrorHandler = require("../utils/ErrorHandler")
+const ErrorHandler = require("../utils/errorHandler")
 
 // for send all cart from database
 exports.getAllCart = catchAsyncError(async (req, res, next) => { 
